@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>FrancoherediaCalculadora</title>
+</head>
+<body>
+    <h1>FrancoHerediaOperator.</h1>
+    <main class="container">
+       
+        <section class="operator">
+            <article class="bill">
+                <p class="bill__title"> Bill </p>
+                <form action="">
+                    <input  placeholder="$" id="billinput" style="text-align: end;" autofocus>
+                </form>
+            </article>
+            <article class="buttons__select">
+                <p class="select__title"> Selec Tip %</p>
+                <section class="container__buttons">
+                    <button type="button" onclick="fivePorcentaje();">
+                        5%
+                    </button>
+                    <button type="button" onclick="tenPorcentaje();">
+                        10%
+                    </button>
+                    <button type="button" onclick="fifTeenPorcentaje();">
+                        15%
+                    </button>
+                    <button type="button" onclick="twentyFivePorcentaje();">
+                        25%
+                    </button>
+                    <button type="button" onclick="fiftyPorcentaje();">
+                        50%
+                    </button>
+                    <button type="button" onclick="customPorcentaje();">
+                        Custom
+                    </button>
+                </section>
+
+            </article>
+        </section>
+    </section>
+    <section class="result__box">
+        <article class="result__form">
+            <p class="result__title"> Total</p>
+                <p class="resultvaliue"> $</p>
+        </article>
+        <article class="result__button">
+            <button type="button" id="button__reset" onclick="resetOperator();"> Reset</button>
+        </article>
+    </section>
+    </main>
+<script src="api.js"></script>
+</body>
+</html>

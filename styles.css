@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color:  hsla(172, 64%, 36%, 0.63);
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+    color: hsla(172, 64%, 36%, 0.829);
+}
+
+
+.container{
+    margin: 100px auto;
+    background-color:  hsl(0, 0%, 100%) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65%;
+    height: 390px;
+    border-radius: 20px;
+    padding: 18px 18px;
+    
+}
+
+
+#billinput{
+    padding: 10px 30px;
+    width: 90%;
+    border: none; 
+    background-color: hsla(188, 14%, 56%, 0.26);
+    border-radius: 5px;
+}
+
+
+.bill__title{
+    font-size: 1.6rem;
+    margin-bottom: 10px ;
+}
+
+
+#billinput:active{
+    border: none;
+}
+
+#billinput:focus{
+    border: none;
+}
+
+
+#billinput:focus{
+    color: hsl(183, 100%, 15%);
+    outline: auto hsla(172, 64%, 36%, 0.829);
+}
+
+
+
+
+
+.operator{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    
+    
+}
+
+.buttons__select{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.select__title{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.container__buttons button {
+    background-color: hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%);
+    width: 42%;
+    height: 40px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    margin: 5px;
+
+    
+}
+
+
+
+/* result box */
+
+
+.result__box{
+    background-color: hsl(183, 100%, 15%);
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.result__form {
+    text-align: center;
+}
+
+.result__title{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.562);
+    font-weight: bold;
+}
+
+
+#button__reset{
+    width: 100%;
+    height: 55px;
+    background-color:  hsl(172, 67%, 45%);
+    border-radius: 5px;
+    color:hsl(186, 14%, 43%) ;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-size: 1.8rem;
+     font-weight: bold;
+}
+
+.resultvaliue{
+    font-size: 9rem;
+    text-align: center;
+    color: hsla(172, 64%, 36%, 0.63);
+    margin-top: 10px;
+    font-weight: bold;
+    
+    
+}
